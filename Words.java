@@ -24,7 +24,7 @@ public class Words
     {
         try
         {
-            Scanner inFile = new Scanner(new File("/Users/air/Documents/GitHub/skeleton-sp18/Hangman/src/dictionary.txt"));
+            Scanner inFile = new Scanner(new File("dictionary.txt"));
             ArrayList<String> tempW = new ArrayList<>();
             while (inFile.hasNext())
             {
